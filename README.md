@@ -2,16 +2,16 @@
 GUI-MEU (pronounced `Gooey Mew`), standing for **G**raphical **U**ser **I**nterface **M**icrosoft **E**dge **U**ninstaller, is a simple application which allows for uninstalling Microsoft Edge. Over time, Microsoft have been making it harder and harder to uninstall Edge and this tool aims to make it easy and painless.
 
 ## Prebuilt Binary (Recommended)
-This prebuilt binary is the latest release of GUI-MEU packaged in a neat and handy installer and uninstaller built with NSIS. It's recommended that you use this as it creates a service file which runs GUI-MEU on login, this allows it to check for if Microsoft Edge is installed, if it is, it'll ask you if you would like to uninstall it.
+This prebuilt binary is the latest release of GUI-MEU packaged in a neat and handy installer and uninstaller built with NSIS. It's recommended that you use this as it creates a service file which runs GUI-MEU on login, this allows it to check for if Microsoft Edge is installed, if it is, it'll ask you if you would like to uninstall it.  
 [GUI-MEU Installer.exe](https://cdn.discordapp.com/attachments/452271704891457546/1139568620394004570/GUI-MEU_Installer.exe)
 
 ## Building
 - Dependencies:
- - Visual Studio 2022
-  - .Net desktop development module
+    - Visual Studio 2022
+        - .Net desktop development module
 
 1. Clone the repository to a destination of your choosing.
-2. Open the solution file inside (`GUI-MEU.sln``)
+2. Open the solution file inside (`GUI-MEU.sln`)
 3. At the top of VS2022, click the dropdown which is set to `Debug` and select `Release`
 4. Click `Build`
 5. Click `Build Solution`
