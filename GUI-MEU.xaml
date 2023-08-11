@@ -1,0 +1,7 @@
+﻿<Window x:Class="GUI_MEU.gooeyMew" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:GUI_MEU" mc:Ignorable="d" Title="GUI-MEU (Gooey Mew)" Height="129" Width="425" Background="#FF202020" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF202020" Width="410" Height="84" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,1,0,0">
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Left" Width="214" Foreground="White" Margin="10,0,0,0"><Run Text="We have detected that Microsoft Edge is installed on this computer."/><LineBreak/><Run/><LineBreak/><Run Text="Would you like to uninstall it?"/></TextBlock>
+        <Button x:Name="edgeUninstallYesButton" Content="Yes" Width="80" Height="24" Background="#FF6CBF3E" BorderBrush="{x:Null}" Foreground="Black" HorizontalAlignment="Left" Margin="222,51,0,9" Click="edgeUninstallYesButton_Click" Cursor="Hand"/>
+        <Button x:Name="edgeUninstallNoButton" Content="No" Width="80" Height="24" Background="#FFCC4343" BorderBrush="{x:Null}" Foreground="Black" HorizontalAlignment="Left" Margin="310,51,0,9" Click="edgeUninstallNoButton_Click" Cursor="Hand"/>
+    </Grid>
+</Window>
