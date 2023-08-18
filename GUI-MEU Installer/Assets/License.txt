@@ -1,0 +1,3 @@
+By installing software, you achknowledge that whatever happens as a result of using the software falls under your responsibility, not the developer's.
+
+All that should go wrong when using this software is either it failing to detect Microsoft Edge or it failing to uninstall Microsoft Edge. Non of which will cause damage to the system.
